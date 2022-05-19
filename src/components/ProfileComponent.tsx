@@ -29,7 +29,7 @@ const ProfileComponent = () => {
                   <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
                     Robert Ćwiertnia (ja)
                   </h2>
-                  <div className=" w-12 h-1 bg-red-500 rounded mt-2 mb-4" />
+                  <div className="   w-12 h-1 bg-red-500 rounded mt-2 mb-4" />
                   <p className="text-base">
                     Raclette knausgaard hella meggs normcore williamsburg enamel
                     pin sartorial venmo tbh hot chicken gentrify portland.

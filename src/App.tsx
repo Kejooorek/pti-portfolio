@@ -1,4 +1,5 @@
 import React from "react";
+import ChessPrezentationComponent from "./components/ChessPrezentationComponent";
 import GymPresentationComponent from "./components/GymPresentationComponent";
 import Navbar from "./components/Navbar";
 import ProfileComponent from "./components/ProfileComponent";
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar></Navbar>
       <ProfileComponent></ProfileComponent>
       <GymPresentationComponent></GymPresentationComponent>
+      <ChessPrezentationComponent></ChessPrezentationComponent>
     </>
   );
 };
