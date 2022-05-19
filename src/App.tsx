@@ -1,13 +1,16 @@
-import React from 'react'
+import React from "react";
+import GymPresentationComponent from "./components/GymPresentationComponent";
+import Navbar from "./components/Navbar";
+import ProfileComponent from "./components/ProfileComponent";
 
 const App = () => {
   return (
-    <div className="min-h-screen flex justify-center items-center">
-    <h1 className="text-3xl font-bold text-blue-600">
-    Install & Setup Vite + React + Typescript + Tailwind CSS 3
-    </h1>
-  </div>
-    )
-}
+    <>
+      <Navbar></Navbar>
+      <ProfileComponent></ProfileComponent>
+      <GymPresentationComponent></GymPresentationComponent>
+    </>
+  );
+};
 
-export default App
+export default App;
